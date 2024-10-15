@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moye Moye</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .moye-container {
+            text-align: center;
+        }
+        .moye {
+            font-size: 50px;
+            color: #FF6347;
+            animation: moye-move 1s infinite alternate;
+        }
+        @keyframes moye-move {
+            0% {
+                transform: scale(1);
+                color: #FF6347;
+            }
+            100% {
+                transform: scale(1.2);
+                color: #4682B4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="moye-container">
+        <div class="moye">Moye Moye!</div>
+        <div class="moye">Moye Moye!</div>
+        <div class="moye">Moye Moye!</div>
+    </div>
+</body>
+</html>
